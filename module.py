@@ -1,7 +1,7 @@
-print("モジュールのロード")
+print("名前を入力してください")
 
-def test():
-    print("関数:test呼び出しました")
+name = input(">>>")
 
-if __name__ == "__main__":
-    test()
+print(name)
+
+print("こんにちは{}さん".format(name))
